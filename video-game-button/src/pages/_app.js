@@ -18,7 +18,7 @@ if(videoRef.current) {
 
   return (
   <div className="container" style={gameRunning ? {backgroundColor:"#a0d2eb"} : null }>
-    <video ref={videoRef} width="500" height="400" controls>
+    <video ref={videoRef} width="400" height="250" controls>
     <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4" type="video/mp4" />
     </video>
     <div>
